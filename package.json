@@ -11,7 +11,7 @@
 		"build": "next build",
 		"start": "next start",
 		"export": "next export",
-		"lint": "next lint",
+		"lint": "next lint"
 	},
 	"dependencies": {
 		"@apollo/client": "^3.3.21",
