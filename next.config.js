@@ -3,7 +3,7 @@ module.exports = {
 	images: {
 		loader :"akamai",
 		path: ""
-	},
-	basePath:"/pages",
-	assetPrefix:"/nextjs-pages"
+	// },
+	// basePath:"/pages",
+	// assetPrefix:"/nextjs-pages"
 };
