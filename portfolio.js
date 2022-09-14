@@ -1,8 +1,8 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Hanzla Tauqeer",
-	title: "Hi all, I'm Hanzla",
+	name: "Jasser Rahali",
+	title: "Hi all, I'm Jasser",
 	description:
 		"I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
 	resumeLink:
@@ -10,24 +10,23 @@ export const greetings = {
 };
 
 export const openSource = {
-	githubUserName: "1hanzla100",
+	githubUserName: "JasserRahali",
 };
 
 export const contact = {};
 
 export const socialLinks = {
-	url: "https://1hanzla100.github.io/",
-	linkedin: "https://www.linkedin.com/in/1hanzla100/",
-	github: "https://github.com/1hanzla100",
-	instagram: "https://www.instagram.com/__hanzla100",
-	facebook: "https://www.facebook.com/1hanzla100",
-	twitter: "https://twitter.com/1hanzla100",
+	url: "https://jasser-rahali.me",
+	linkedin: "https://www.linkedin.com/in/rahali-jasser/",
+	github: "https://github.com/JasserRahali",
+	instagram: "https://www.instagram.com/jasser.rahali/",
+	facebook: "https://www.facebook.com/tn.anonyme/",
 };
 
 export const skillsSection = {
 	title: "What I do",
 	subTitle:
-		"CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+		"PASSIONATE FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
 	data: [
 		{
 			title: "Full Stack Development",
@@ -53,24 +52,26 @@ export const skillsSection = {
 				{
 					skillName: "JavaScript",
 					fontAwesomeClassname: "logos:javascript",
+				}
+				,
+				
+				{
+					skillName: "Typescript",
+					fontAwesomeClassname: "vscode-icons:file-type-light-typescript",
 				},
 				{
-					skillName: "Reactjs",
-					fontAwesomeClassname: "vscode-icons:file-type-reactjs",
+					skillName: "NodeJs",
+					fontAwesomeClassname: "vscode-icons:node",
+				},
+				,
+				{
+					skillName: "Angular",
+					fontAwesomeClassname: "vscode-icons:file-type-angular",
 				},
 				{
 					skillName: "Nextjs",
 					fontAwesomeClassname: "vscode-icons:file-type-light-next",
 				},
-				{
-					skillName: "Python",
-					fontAwesomeClassname: "logos:python",
-				},
-				{
-					skillName: "Django",
-					fontAwesomeClassname: "vscode-icons:file-type-django",
-				},
-
 				{
 					skillName: "Redux",
 					fontAwesomeClassname: "logos:redux",
@@ -194,19 +195,30 @@ export const SkillBars = [
 	},
 	{
 		Stack: "Backend",
-		progressPercentage: "70",
+		progressPercentage: "80",
 	},
 	{
 		Stack: "Programming",
-		progressPercentage: "60",
+		progressPercentage: "70",
 	},
 ];
 
 export const educationInfo = [
 	{
-		schoolName: "Harvard University",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
+		schoolName: "Preparatory Institute for Engineering Studies of Monastir",
+		// subHeader: "Engineer Diploma in Computer Science",
+		duration: "August 2014 - August 2017",
+		desc: "Participated in the research of XXX and published 3 papers.",
+		grade: "Grade A",
+		descBullets: [
+			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+		],
+	},
+	{
+		schoolName: "National Engineering School Of Carthage",
+		subHeader: "Engineer Diploma in Computer Science",
+		duration: "September 2017 - September 2021",
 		desc: "Participated in the research of XXX and published 3 papers.",
 		grade: "Grade A",
 		descBullets: [
@@ -218,17 +230,17 @@ export const educationInfo = [
 
 export const experience = [
 	{
-		role: "Frontend Developer",
-		company: "Duseca Software",
-		companylogo: "/img/icons/common/dusecaSoftware.jpg",
-		date: "Apr 2022 – Jun 2022",
+		role: "Full Stack Engineer",
+		company: "Focus-Corporation , Tunisia",
+		companylogo: "/img/icons/common/focus.jpg",
+		date: "Dec 2021 – Present",
 		desc: "I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.",
 	},
 	{
-		role: "API Engineer",
-		company: "Duseca Software",
+		role: "Full Stack Engineer",
+		company: "iXnihilo SAS , Tunisia",
 		companylogo: "/img/icons/common/dusecaSoftware.jpg",
-		date: "Jan 2022 – Mar 2022",
+		date: "Mar 2021 – Nov 2021",
 		desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
 		// descBullets: [
 		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
@@ -236,18 +248,11 @@ export const experience = [
 		// ],
 	},
 	{
-		role: "Full Stack Developer",
-		company: "Bleed-AI",
-		companylogo: "/img/icons/common/bleedAI.jpg",
-		date: "Sept 2021 - Oct 2021",
+		role: "Full Stack Engineer",
+		company: "DATATEGY , Paris",
+		companylogo: "/img/icons/common/datategy.png",
+		date: "Feb 2020 - Mar 2021",
 		desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
-	},
-	{
-		role: "Backend Developer",
-		company: "Wapidu",
-		companylogo: "/img/icons/common/wapidu.jpg",
-		date: "Sept 2021",
-		desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.",
 	},
 ];
 
@@ -255,54 +260,39 @@ export const projects = [
 	{
 		name: "developer-portfolio",
 		desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-		github: "https://github.com/1hanzla100/developer-portfolio",
-		link: "https://developer-portfolio-1hanzla100.vercel.app/",
-	},
-	{
-		name: "AtlasMart",
-		desc: "With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.",
-		github: "https://github.com/1hanzla100/Django-React-Marketplace",
-	},
-	{
-		name: "Technota (Forum)",
-		desc: "Get hands-on experience in technical skills with Technota",
-		github: "https://github.com/1hanzla100/django-react-forum",
-	},
-	{
-		name: "Shopaza (Ecommerce)",
-		desc: "Now your reach to all your favorite entertainment and luxury items is just one touch apart",
-		github: "https://github.com/1hanzla100/Django-ecommerce",
+		github: "https://github.com/JasserRahali/JasserRahali.github.io",
+		link: "https://jasser-rahali.me/",
 	},
 ];
 
-export const feedbacks = [
-	{
-		name: "John Smith",
-		feedback:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
-	},
-	{
-		name: "John Smith",
-		feedback:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
-	},
-];
+// export const feedbacks = [
+// 	{
+// 		name: "John Smith",
+// 		feedback:
+// 			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
+// 	},
+// 	{
+// 		name: "John Smith",
+// 		feedback:
+// 			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
+// 	},
+// ];
 
 // See object prototype on SEO.jsx page
 export const seoData = {
-	title: "Hanzla Tauqeer",
+	title: "Jasser RAHALI",
 	description:
 		"A passionate Full Stack Web Developer and Blockchain Developer.",
-	author: "Hanzla Tauqeer",
+	author: "Jasser RAHALI",
 	image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
-	url: "https://developer-portfolio-1hanzla100.vercel.app",
+	url: "https://jasser-rahali.me/",
 	keywords: [
-		"Hanzla",
-		"Hanzla Tauqeer",
+		"Jasser",
+		"Jasser RAHALI",
 		"@1hanzla100",
 		"1hanzla100",
 		"Portfolio",
-		"Hanzla Portfolio ",
-		"Hanzla Tauqeer Portfolio",
+		"Jasser Portfolio ",
+		"Jasser RAHALI Portfolio",
 	],
 }
