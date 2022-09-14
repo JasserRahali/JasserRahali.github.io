@@ -4,6 +4,6 @@ module.exports = {
 		loader :"akamai",
 		path: ""
 	},
-	basePath:"/next-js/pages",
-	assetPrefix:"/next-js/pages"
+	basePath:"/nextjs-pages",
+	assetPrefix:"/nextjs-pages"
 };
